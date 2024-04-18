@@ -1,0 +1,10 @@
+{% extends "word/layout.html" %}
+
+{% block body %}
+	<h1>Enter the names of the players.</h1>
+	<form action="play" method="post">
+		{% csrf_token %}
+		{{ form|linebreaksbr }}
+		<input type="Submit">
+	</form>
+{% endblock %}

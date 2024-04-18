@@ -1,0 +1,11 @@
+{% extends "word/layout.html" %}
+
+{% block body %}
+	<h1>Enter a word</h1>
+	<form>
+		{% csrf_token %}
+		{{ form }}
+		<input type="submit">
+	</form>
+
+{% endblock %}

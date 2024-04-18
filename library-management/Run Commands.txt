@@ -1,0 +1,7 @@
+- Make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- Run the application: python manage.py runserver
+
+For Admin Account, please create one with superuser!
+- python manage.py createsuperuser
+

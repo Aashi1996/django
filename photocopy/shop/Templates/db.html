@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		h1{
+			font-size: 30px;
+			color: darkgray;
+		}
+
+		h3{
+			font-size: 15px;
+			color: royalblue;
+		}
+	</style>
+</head>
+<body>
+	<h1>Name of item</h1>
+	{% for x in y %}
+	<h3>{{x.item_name}}</h3>
+	{% endfor %}
+	<br>
+
+	<h1>No. of items sold</h1>
+	{% for x in y %}
+	<h3>{{x.item_quantity}}</h3>
+	{% endfor %}
+	<br>
+
+	<h1>Price</h1>
+	{% for x in y %}
+	<h3>{{x.item_price}}</h3>
+	{% endfor %}
+	<br>
+
+</body>
+</html>
