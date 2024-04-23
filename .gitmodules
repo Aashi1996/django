@@ -1,0 +1,9 @@
+[submodule "sangamone-django1.0.py"]
+	path = sangamone-django1.0.py
+	url = https://github.com/shashankssvi/django
+[submodule "django"]
+	path = django
+	url = https://github.com/shashankssvi/django
+[submodule "utilities"]
+	path = utilities
+	url = https://github.com/shashankssvi/django
